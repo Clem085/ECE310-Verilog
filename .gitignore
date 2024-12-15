@@ -1,0 +1,49 @@
+# Ignore specific large files
+./310-Projects/project_2a/project_2.sim/sim_1/behav/xsim/project2_tb_behav.wdb
+./.git/objects/pack/pack-c58a0973abc24880621f9e4f1f48a7dea04147d0.pack
+# Ignore all files of a type (e.g., binaries, logs)
+*.bin
+*.log
+
+
+# Vivado-generated files
+*.jou
+*.log
+*.str
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.xpr
+*.wdb
+*.ip_user_files/
+*.sdb
+*.rtti
+xsim.dir/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Large output files
+*.bit
+*.bin
+*.elf
+*.vcd
+*.wav
+*.xdc
+
+## New Files Chat Jibity Suggested
+# Ignore Vivado project files
+*.xpr
+*.log
+*.jou
+*.wdb
+*.sdb
+*.bit
+
+# Ignore other large or irrelevant files
+*.zip
+*.tar.gz
+*.bak
+*.tmp
