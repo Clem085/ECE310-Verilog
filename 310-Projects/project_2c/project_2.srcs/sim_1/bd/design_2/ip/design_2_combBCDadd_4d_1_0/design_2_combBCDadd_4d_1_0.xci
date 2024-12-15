@@ -1,0 +1,56 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_2_combBCDadd_4d_1_0",
+    "cell_name": "combBCDadd_4d_1",
+    "component_reference": "xilinx.com:module_ref:combBCDadd_4d:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../project_2.gen/sim_1/bd/design_2/ip/design_2_combBCDadd_4d_1_0",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "design_2_combBCDadd_4d_1_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "spartan7" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7s6" } ],
+        "NEXTGEN_VERSAL": [ { "value": "0" } ],
+        "PACKAGE": [ { "value": "ftgb196" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../project_2.gen/sim_1/bd/design_2/ip/design_2_combBCDadd_4d_1_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.1" } ],
+        "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "A3": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "A2": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "A1": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "A0": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "B3": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "B2": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "B1": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "B0": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "F4": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "F3": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "F2": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "F1": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "F0": [ { "direction": "out", "size_left": "3", "size_right": "0" } ]
+      }
+    }
+  }
+}

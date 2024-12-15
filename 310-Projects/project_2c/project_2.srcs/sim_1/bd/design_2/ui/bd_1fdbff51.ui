@@ -1,0 +1,68 @@
+{
+   "ActiveEmotionalView":"Color Coded",
+   "Addressing View_Layers":"/clk_100MHz_1:false|/clk_wiz_clk_out1:false|/rst_clk_wiz_100M_peripheral_aresetn:false|/reset_rtl_0_1:false|",
+   "Addressing View_ScaleFactor":"1.26168",
+   "Addressing View_TopLeft":"-224,3",
+   "Color Coded_ExpandedHierarchyInLayout":"",
+   "Color Coded_Layers":"/clk_100MHz_1:true|/clk_wiz_clk_out1:true|/rst_clk_wiz_100M_peripheral_aresetn:true|/reset_rtl_0_1:true|",
+   "Color Coded_Layout":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clk_100MHz -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_reset_rtl_0 -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace inst Project2_0 -pg 1 -lvl 3 -x 760 -y 260 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -x 130 -y 230 -defaultsOSRD
+preplace inst rst_clk_wiz_100M -pg 1 -lvl 2 -x 430 -y 180 -defaultsOSRD
+preplace inst SIPO_41bit_0 -pg 1 -lvl 3 -x 760 -y 410 -defaultsOSRD
+preplace inst PISO_28bit_0 -pg 1 -lvl 3 -x 760 -y 100 -defaultsOSRD
+preplace inst combBCDadd_4d_0 -pg 1 -lvl 1 -x 130 -y 410 -defaultsOSRD
+preplace inst combBCDadd_4d_1 -pg 1 -lvl 2 -x 430 -y 390 -defaultsOSRD
+preplace netloc clk_wiz_clk_out1 1 1 2 240 80 610
+preplace netloc clk_wiz_locked 1 1 1 250 220n
+preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 2 1 620 100n
+preplace netloc clk_100MHz_1 1 0 1 NJ 240
+preplace netloc reset_rtl_0_1 1 0 2 20 160 NJ
+levelinfo -pg 1 0 130 430 760 900
+pagesize -pg 1 -db -bbox -sgen -130 0 900 540
+",
+   "Color Coded_ScaleFactor":"1.26168",
+   "Color Coded_TopLeft":"-224,3",
+   "Default View_Layers":"/clk_100MHz_1:true|/clk_wiz_clk_out1:true|/rst_clk_wiz_100M_peripheral_aresetn:true|/reset_rtl_0_1:true|",
+   "Default View_ScaleFactor":"1.26168",
+   "Default View_TopLeft":"-224,3",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_ScaleFactor":"1.26168",
+   "Grouping and No Loops_TopLeft":"-224,3",
+   "Interfaces View_Layers":"/clk_100MHz_1:false|/clk_wiz_clk_out1:false|/rst_clk_wiz_100M_peripheral_aresetn:false|/reset_rtl_0_1:false|",
+   "Interfaces View_ScaleFactor":"0.8",
+   "Interfaces View_TopLeft":"-574,-119",
+   "No Loops_ScaleFactor":"1.26168",
+   "No Loops_TopLeft":"-224,3",
+   "Reduced Jogs_ScaleFactor":"1.26168",
+   "Reduced Jogs_TopLeft":"-224,3",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clk_100MHz -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_reset_rtl_0 -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace inst Project2_0 -pg 1 -lvl 3 -x 760 -y 260 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -x 130 -y 230 -defaultsOSRD
+preplace inst rst_clk_wiz_100M -pg 1 -lvl 2 -x 430 -y 180 -defaultsOSRD
+preplace inst SIPO_41bit_0 -pg 1 -lvl 3 -x 760 -y 410 -defaultsOSRD
+preplace inst PISO_28bit_0 -pg 1 -lvl 3 -x 760 -y 100 -defaultsOSRD
+preplace inst combBCDadd_4d_0 -pg 1 -lvl 1 -x 130 -y 410 -defaultsOSRD
+preplace inst combBCDadd_4d_1 -pg 1 -lvl 2 -x 430 -y 390 -defaultsOSRD
+preplace netloc clk_wiz_clk_out1 1 1 2 240 80 610
+preplace netloc clk_wiz_locked 1 1 1 250 220n
+preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 2 1 620 100n
+preplace netloc clk_100MHz_1 1 0 1 NJ 240
+preplace netloc reset_rtl_0_1 1 0 2 20 160 NJ
+levelinfo -pg 1 0 130 430 760 900
+pagesize -pg 1 -db -bbox -sgen -130 0 900 540
+"
+}
+{
+   "da_board_cnt":"3",
+   "da_clkrst_cnt":"3"
+}

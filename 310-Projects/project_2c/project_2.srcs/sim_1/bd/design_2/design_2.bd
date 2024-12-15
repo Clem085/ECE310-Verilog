@@ -1,0 +1,380 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xEF0F8C9B83BC556D",
+      "device": "xc7s6ftgb196-1",
+      "gen_directory": "../../../../project_2.gen/sim_1/bd/design_2",
+      "name": "design_2",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2024.1"
+    },
+    "design_tree": {
+      "Project2_0": "",
+      "clk_wiz": "",
+      "rst_clk_wiz_100M": "",
+      "SIPO_41bit_0": "",
+      "PISO_28bit_0": "",
+      "combBCDadd_4d_0": "",
+      "combBCDadd_4d_1": ""
+    },
+    "ports": {
+      "clk_100MHz": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000000"
+          }
+        }
+      },
+      "reset_rtl_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      }
+    },
+    "components": {
+      "Project2_0": {
+        "vlnv": "xilinx.com:module_ref:Project2:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_2_Project2_0_0",
+        "xci_path": "ip/design_2_Project2_0_0/design_2_Project2_0_0.xci",
+        "inst_hier_path": "Project2_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Project2",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "clock": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "din": {
+            "direction": "I"
+          },
+          "result": {
+            "direction": "O"
+          }
+        }
+      },
+      "clk_wiz": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "ip_revision": "14",
+        "xci_name": "design_2_clk_wiz_0",
+        "xci_path": "ip/design_2_clk_wiz_0/design_2_clk_wiz_0.xci",
+        "inst_hier_path": "clk_wiz",
+        "parameters": {
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "100"
+          }
+        }
+      },
+      "rst_clk_wiz_100M": {
+        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
+        "ip_revision": "15",
+        "xci_name": "design_2_rst_clk_wiz_100M_0",
+        "xci_path": "ip/design_2_rst_clk_wiz_100M_0/design_2_rst_clk_wiz_100M_0.xci",
+        "inst_hier_path": "rst_clk_wiz_100M"
+      },
+      "SIPO_41bit_0": {
+        "vlnv": "xilinx.com:module_ref:SIPO_41bit:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_2_SIPO_41bit_0_0",
+        "xci_path": "ip/design_2_SIPO_41bit_0_0/design_2_SIPO_41bit_0_0.xci",
+        "inst_hier_path": "SIPO_41bit_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "SIPO_41bit",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "parallel_out": {
+            "direction": "O",
+            "left": "40",
+            "right": "0"
+          },
+          "done": {
+            "direction": "O"
+          },
+          "serial_in": {
+            "direction": "I"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "shift": {
+            "direction": "I"
+          }
+        }
+      },
+      "PISO_28bit_0": {
+        "vlnv": "xilinx.com:module_ref:PISO_28bit:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_2_PISO_28bit_0_0",
+        "xci_path": "ip/design_2_PISO_28bit_0_0/design_2_PISO_28bit_0_0.xci",
+        "inst_hier_path": "PISO_28bit_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "PISO_28bit",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "serial_out": {
+            "direction": "O"
+          },
+          "done": {
+            "direction": "O"
+          },
+          "parallel_in": {
+            "direction": "I",
+            "left": "27",
+            "right": "0"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "load": {
+            "direction": "I"
+          },
+          "shift": {
+            "direction": "I"
+          }
+        }
+      },
+      "combBCDadd_4d_0": {
+        "vlnv": "xilinx.com:module_ref:combBCDadd_4d:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_2_combBCDadd_4d_0_0",
+        "xci_path": "ip/design_2_combBCDadd_4d_0_0/design_2_combBCDadd_4d_0_0.xci",
+        "inst_hier_path": "combBCDadd_4d_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "combBCDadd_4d",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A3": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "A2": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "A1": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "A0": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "B3": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "B2": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "B1": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "B0": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "F4": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "F3": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "F2": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "F1": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "F0": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "combBCDadd_4d_1": {
+        "vlnv": "xilinx.com:module_ref:combBCDadd_4d:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_2_combBCDadd_4d_1_0",
+        "xci_path": "ip/design_2_combBCDadd_4d_1_0/design_2_combBCDadd_4d_1_0.xci",
+        "inst_hier_path": "combBCDadd_4d_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "combBCDadd_4d",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A3": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "A2": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "A1": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "A0": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "B3": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "B2": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "B1": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "B0": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "F4": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "F3": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "F2": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "F1": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "F0": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_100MHz_1": {
+        "ports": [
+          "clk_100MHz",
+          "clk_wiz/clk_in1"
+        ]
+      },
+      "clk_wiz_clk_out1": {
+        "ports": [
+          "clk_wiz/clk_out1",
+          "Project2_0/clock",
+          "rst_clk_wiz_100M/slowest_sync_clk",
+          "SIPO_41bit_0/clk",
+          "PISO_28bit_0/clk"
+        ]
+      },
+      "clk_wiz_locked": {
+        "ports": [
+          "clk_wiz/locked",
+          "rst_clk_wiz_100M/dcm_locked"
+        ]
+      },
+      "reset_rtl_0_1": {
+        "ports": [
+          "reset_rtl_0",
+          "clk_wiz/reset",
+          "rst_clk_wiz_100M/ext_reset_in"
+        ]
+      },
+      "rst_clk_wiz_100M_peripheral_aresetn": {
+        "ports": [
+          "rst_clk_wiz_100M/peripheral_aresetn",
+          "Project2_0/reset",
+          "SIPO_41bit_0/rst",
+          "PISO_28bit_0/rst"
+        ]
+      }
+    }
+  }
+}

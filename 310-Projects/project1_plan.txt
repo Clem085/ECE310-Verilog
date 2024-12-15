@@ -1,0 +1,57 @@
+// Increment Clock
+// Set capture High so that input can be captured
+// Increment Clock
+// Set d_in = A_VAL
+// Increment Clock
+// Set captureLow so that d_in remains the same
+// Increment Clock
+// Set op = 0
+// Increment Clock
+// Assign A = A_VAL
+// Increment Clock
+// Store A value into dffA
+// 
+// Increment Clock 
+// Set capture High so that input can be captured
+// Increment Clock
+// Set d_in = B_VAL
+// Increment Clock
+// Set capture low so that d_in remains the same
+// Increment Clock
+// Set op = 1
+// Increment Clock
+// Store B into dffB
+// 
+// Increment Clock 
+// Set capture High so that input can be captured
+// Increment Clock
+// Set d_in = C_VAL
+// Increment Clock
+// Set capture low so that d_in remains the same
+// Increment Clock
+// Set op = 2
+// Increment Clock
+// Store C into dffC
+// 
+// Increment Clock 
+// Set capture High so that input can be captured
+// Increment Clock
+// Set d_in = D_VAL
+// Increment Clock
+// Set capture low so that d_in remains the same
+// Increment Clock
+// Set op = 1
+// Increment Clock
+// Store D into dffD
+//
+// Increment Clock
+// Add A + B using RCA
+// Store into dff_AplusB
+
+
+
+output [7:0] S,
+output Cout,
+input [7:0] A,
+input [7:0] B,
+input Cin

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="project1_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="project1_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="100.001 ns"></ZoomEndTime>
+      <Cursor1Time time="100.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="154"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject type="logic" fp_name="/project1_tb/reset_n">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/project1_tb/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/d_in">
+      <obj_property name="ElementShortName">d_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/op">
+      <obj_property name="ElementShortName">op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">op[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/project1_tb/capture">
+      <obj_property name="ElementShortName">capture</obj_property>
+      <obj_property name="ObjectShortName">capture</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/result">
+      <obj_property name="ElementShortName">result[8:0]</obj_property>
+      <obj_property name="ObjectShortName">result[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/project1_tb/valid">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/demux_A_out">
+      <obj_property name="ElementShortName">demux_A_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">demux_A_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/demux_B_out">
+      <obj_property name="ElementShortName">demux_B_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">demux_B_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/demux_C_out">
+      <obj_property name="ElementShortName">demux_C_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">demux_C_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/demux_D_out">
+      <obj_property name="ElementShortName">demux_D_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">demux_D_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/mux_A_out">
+      <obj_property name="ElementShortName">mux_A_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_A_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/mux_B_out">
+      <obj_property name="ElementShortName">mux_B_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_B_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/mux_C_out">
+      <obj_property name="ElementShortName">mux_C_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_C_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/mux_D_out">
+      <obj_property name="ElementShortName">mux_D_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_D_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/dff_A_out">
+      <obj_property name="ElementShortName">dff_A_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dff_A_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/dff_B_out">
+      <obj_property name="ElementShortName">dff_B_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dff_B_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/dff_C_out">
+      <obj_property name="ElementShortName">dff_C_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dff_C_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/dff_D_out">
+      <obj_property name="ElementShortName">dff_D_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dff_D_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/AplusB_out">
+      <obj_property name="ElementShortName">AplusB_out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">AplusB_out[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/CplusD_out">
+      <obj_property name="ElementShortName">CplusD_out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">CplusD_out[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/project1_tb/AplusB_Cout">
+      <obj_property name="ElementShortName">AplusB_Cout</obj_property>
+      <obj_property name="ObjectShortName">AplusB_Cout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/project1_tb/CplusD_Cout">
+      <obj_property name="ElementShortName">CplusD_Cout</obj_property>
+      <obj_property name="ObjectShortName">CplusD_Cout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/project1_tb/final_Cout">
+      <obj_property name="ElementShortName">final_Cout</obj_property>
+      <obj_property name="ObjectShortName">final_Cout</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/AplusB_9bit">
+      <obj_property name="ElementShortName">AplusB_9bit[8:0]</obj_property>
+      <obj_property name="ObjectShortName">AplusB_9bit[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/project1_tb/CplusD_9bit">
+      <obj_property name="ElementShortName">CplusD_9bit[8:0]</obj_property>
+      <obj_property name="ObjectShortName">CplusD_9bit[8:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,2 @@
+To copy friles from Grendel to local, use the following command:
+scp -r cbsavugo@grendel.ece.ncsu.edu:~/name_of_project ~/Downloads/Programming/Verilog
